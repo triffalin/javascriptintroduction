@@ -1,8 +1,5 @@
 let age = 32;
-let greetingText = "Hi, I'm Alin!";
-alert(greetingText);
-alert(greetingText);
-greetingText = 'Hi, I am really Alin';
-alert(greetingText);
-alert(age);
-alert(age);
+let userName = 'Alin';
+let hobbies = ['Sports', 'Cooking', 'Reading'];
+
+alert(hobbies[0]);
