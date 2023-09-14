@@ -24,3 +24,7 @@ result += 5; // result = result + 5
 result -= 5; // result = result - 5
 result *= 5; // result = result * 5
 result /= 5; // result = result / 5
+
+// perfoming string operations
+console.log('Alin' + '' + 'Triff'); // concat
+console.log('Alin' - 'ax'); // NaN = not a number
