@@ -32,3 +32,6 @@ console.log('Alin' - 'ax'); // NaN = not a number
 let userName = 'Alin';
 console.log(userName.length);
 console.log(userName.toUpperCase());
+
+let hobbies = ['Sports', 'Cooking'];
+console.log(hobbies.length);
