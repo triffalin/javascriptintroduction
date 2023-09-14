@@ -10,7 +10,9 @@ let job = {
 let adultYears;
 
 function calculateAdultYears(userAge) {
-	return userAge - 18;
+	let result;
+	result = userAge - 18;
+	return result;
 }
 
 adultYears = calculateAdultYears(age);
@@ -20,3 +22,13 @@ age = 45;
 adultYears = calculateAdultYears(age);
 
 alert(adultYears);
+
+let person = {
+	name: 'Max', // Property
+	greet() {
+		// Method
+		alert('Hello!');
+	},
+};
+
+person.greet();
