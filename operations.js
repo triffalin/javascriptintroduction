@@ -28,3 +28,7 @@ result /= 5; // result = result / 5
 // perfoming string operations
 console.log('Alin' + '' + 'Triff'); // concat
 console.log('Alin' - 'ax'); // NaN = not a number
+
+let userName = 'Alin';
+console.log(userName.length);
+console.log(userName.toUpperCase());
